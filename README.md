@@ -8,7 +8,7 @@ Please see the paper: P. Kumar (2022) [TOPress: a MATLAB implementation for topo
 ## Citation
 If you have used `TOPress.m`, kindly cite the paper.:
 ```
-@article{kumar2023TOPpress,
+@article{kumar2023TOPress,
   title={{TOPress}: a {MATLAB} implementation for topology optimization of structures subjected to design‑dependent pressure loads},
   author={Kumar, Prabhat},
   journal={Structural and Multidisciplinary Optimization},

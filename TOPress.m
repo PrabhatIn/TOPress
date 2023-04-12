@@ -98,30 +98,30 @@ while(loop<maxit && change>0.01)
     fprintf(' It.:%5i Obj.:%11.4f Vol.:%7.3f ch.:%7.3f\n',loop,obj*normf,mean(xphys),change);
     colormap(gray); imagesc(1-reshape(xphys, nely, nelx));caxis([0 1]);axis equal off;drawnow;
 end
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    The code, TOPress,  is provided for  pedagogical purposes. A  detailed                           %
-%    description is presented in the paper:"TOPress: a MATLAB implementation for               %
-%    topology optimization of structures subjected to design-dependent pressure                    %
-%    loads"   Structural and Mutltidisciplinary Optimization, 2023.                                             %
-%                                                                                                                                               %
-%    One can download the code and its extensions for the different problems                        %
-%    from the online supplementary material and also from:                                                     %
-%                                      https://github.com/PrabhatIn/TOPress                                             %
-%                                                                                                                                               %
-%    Please send your comment to: pkumar@mae.iith.ac.in                                                    %
-%                                                                                                                                               %
-%    One may also refer to the following two papers for more detail:                                        % 
-%                                                                                                                                               %
-%    1. Kumar P, Frouws JS, Langelaar M (2020) Topology optimization of fluidic                    %
-%    pressure-loaded structures and compliant mechanisms using the Darcy method.            %
-%    Structural and Multidisciplinary Optimization 61(4):1637-1655                                          %
-%    2. Kumar P, Langelaar M (2021) On topology optimization of design-dependent              % 
-%    pressure-loaded three-dimensional structures and compliant mechanisms.                     %
-%    International Journal for Numerical Methods in Engineering 122(9):2205-2220                %
-%                                                                                                                                               %
-%    Disclaimer:                                                                                                                         %
-%    The author does not guarantee that the code is free from erros but reserves                   %
-%    all rights. Further, the author shall not be liable in any event caused by                           % 
-%    use of the above 100-line code and its extensions                                                            %
-%                                                                                                                                               %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    The code, TOPress,  is provided for  pedagogical purposes. A  detailed        %
+%    description is presented in the paper:"TOPress: a MATLAB implementation for   %
+%    topology optimization of structures subjected to design-dependent pressure    %
+%    loads"   Structural and Mutltidisciplinary Optimization, 2023.                %
+%                                                                                  %
+%    One can download the code and its extensions for the different problems       %
+%    from the online supplementary material and also from:                         %
+%                                      https://github.com/PrabhatIn/TOPress        %
+%                                                                                  %
+%    Please send your comment to: pkumar@mae.iith.ac.in                            %
+%                                                                                  %
+%    One may also refer to the following two papers for more detail:               % 
+%                                                                                  %
+%    1. Kumar P, Frouws JS, Langelaar M (2020) Topology optimization of fluidic    %
+%    pressure-loaded structures and compliant mechanisms using the Darcy method.   %
+%    Structural and Multidisciplinary Optimization 61(4):1637-1655                 %
+%    2. Kumar P, Langelaar M (2021) On topology optimization of design-dependent   % 
+%    pressure-loaded three-dimensional structures and compliant mechanisms.        %
+%    International Journal for Numerical Methods in Engineering 122(9):2205-2220   %
+%                                                                                  %
+%    Disclaimer:                                                                   %
+%    The author does not guarantee that the code is free from erros but reserves   %
+%    all rights. Further, the author shall not be liable in any event caused by    % 
+%    use of the above 100-line code and its extensions                             %
+%                                                                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

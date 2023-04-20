@@ -6,7 +6,7 @@ Author: Prabhat Kumar, Department of Mechanical and Aerospace Engineering, India
 ## How to use
 Please see the paper: P. Kumar (2022) TOPress: a MATLAB implementation for topology optimization of structures subjected to design‑dependent pressure loads, Structural and Multidisciplinary Optimization, 66(4), 2023
 ## Citation
-For citing the paper, one may use the following:
+For citing the paper, one may use the following bibtex format:
 ```
 @article{kumar2023TOPress,
   title={{TOPress}: a {MATLAB} implementation for topology optimization of structures subjected to design‑dependent pressure loads},

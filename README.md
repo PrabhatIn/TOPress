@@ -10,6 +10,7 @@ TOPress code uses the MMA written in 1999 and updated in 2002 version. The mmasu
 ## [xmma,ymma,zmma,lam,xsi,eta,mu,zet,s,low,upp] = mmasub(m,n,iter,xval,xmin,xmax,xold1,xold2,f0val,df0dx,df0dx2,fval,dfdx,dfdx2,low,upp,a0,a,c,d);
  TOPress code calls it  on line 91 as
 ## [xmma,~,~,~,~,~,~,~,~,low,upp]=mmasub(mMMA,nMMA,loop,xval,xminvec,xmaxvec,xold1,xold2,obj*normf,objsens(act),objsens(act)*0,Vol,dVol(act),dVol(act)*0,low,upp,a0,aMMA,cMMA,dMMA);
+For using different version of MMA, one can modify input accordingly.
 ## Citation
 For citing the paper, one may use the following bibtex format:
 ```

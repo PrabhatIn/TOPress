@@ -12,7 +12,7 @@ TOPress code uses the MMA written in 1999 and updated in 2002 version. The mmasu
 ## [xmma,~,~,~,~,~,~,~,~,low,upp]=mmasub(mMMA,nMMA,loop,xval,xminvec,xmaxvec,xold1,xold2,obj*normf,objsens(act),objsens(act)*0,Vol,dVol(act),dVol(act)*0,low,upp,a0,aMMA,cMMA,dMMA);
 For using different version of MMA, one can modify inputs accordingly.
 ## Citation
-For citing the paper, one may use the following bibtex format:
+For citing the paper, please use the following bibtex format:
 ```
 @article{kumar2023TOPress,
   title={{TOPress}: a {MATLAB} implementation for topology optimization of structures subjected to design‑dependent pressure loads},

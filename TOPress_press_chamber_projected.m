@@ -100,7 +100,7 @@ while(loop<maxit && change>0.01)
     xval = xMMA;
     [xminvec, xmaxvec]= deal(max(0, xval - mvLt),min(1, xval + mvLt));
     [xmma,~,~,~,~,~,~,~,~,low,upp] = mmasub(mMMA,nMMA,loop,xval,xminvec,xmaxvec,xold1,xold2, ...
-        obj*normf,objsens(act),objsens(act)*0,Vol,dVol(act),dVol(act)*0,low,upp,a0,aMMA,cMMA,dMMA);
+        obj*normf,objsens(act),objsens(act)*0,Vol,dVol(act)',dVol(act)'*0,low,upp,a0,aMMA,cMMA,dMMA);
     [xold2,xold1, xnew]= deal(xold1, xval,xmma);
     change = max(abs(xnew-xMMA)); % Calculating change
     xMMA = xnew;   xTilde(act) = xnew; 

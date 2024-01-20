@@ -4,7 +4,7 @@
 ## About
 Author: Prabhat Kumar, Department of Mechanical and Aerospace Engineering, Indian Institute of Technology Hyderabad, India. Please send your comments and suggestions to  pkumar@mae.iith.ac.in or prabhatkumar.rns@gmail.com
 ## How to use
-1. Please see the paper: P. Kumar (2023) TOPress: a MATLAB implementation for topology optimization of structures subjected to design‑dependent pressure loads, Structural and Multidisciplinary Optimization, 66(4), 2023
+1. Please see the paper: [P. Kumar (2023) TOPress: a MATLAB implementation for topology optimization of structures subjected to design‑dependent pressure loads, Structural and Multidisciplinary Optimization, 66(4), 2023](https://link.springer.com/article/10.1007/s00158-023-03533-9)
 2. MMA setting:
    
   

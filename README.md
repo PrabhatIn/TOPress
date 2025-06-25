@@ -13,7 +13,7 @@ Author: Prabhat Kumar, Department of Mechanical and Aerospace Engineering, India
  TOPress code calls it  on line 91 as
 ## [xmma,~,~,~,~,~,~,~,~,low,upp]=mmasub(mMMA,nMMA,loop,xval,xminvec,xmaxvec,xold1,xold2,obj*normf,objsens(act),objsens(act)*0,Vol,dVol(act)',dVol(act)'*0,low,upp,a0,aMMA,cMMA,dMMA);
 (ii) 
-With the 2006 version of MMA, one can modify MMA call (line 91) to (may have to reduce 'change' to lower):
+With the 2006 version of MMA, one can modify MMA call (line 91) to (may have to reduce 'change' to lower on line 60):
 ## [xmma,~,~,~,~,~,~,~,~,low,upp]=mmasub(mMMA,nMMA,loop,xval,xminvec,xmaxvec,xold1,xold2,obj*normf,objsens(act),Vol,dVol(act)',low,upp,a0,aMMA,cMMA,dMMA);
 ## Citation
 For citing the paper, please use the following bibtex format:
